@@ -12,7 +12,7 @@
 	* for how to install at php.net.
 */
 
-set_include_path(get_include_path() . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT'] );
+
 
 define('DPTYPE',"index")
 // We are going to dirname( __FILE__ ) here because __DIR__ is only in PHP5.3+.
