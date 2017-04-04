@@ -5,11 +5,12 @@
 	* If you can read this in your web browser, your web server is probably not
 	* configured to correctly use PHP scripts.
 	* If you are not the systems adminisistrator of the server,
-	* contact your systems adminisistrator.
-	* If you are, or otherwise can install PHP 7, install PHP 7.
+	* contact your systems adminisistrator and describe the error.
+	* If you are the systems administrator,
+	* or otherwise can install PHP 7,
+	* install PHP 7. See instructions
+	* for how to install at php.net.
 */
-
-//require dirname( __FILE__ ) . '/*/Include'; // We need to find the master include file.
 
 set_include_path(get_include_path() . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT'] );
 
