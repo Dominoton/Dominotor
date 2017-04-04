@@ -22,8 +22,8 @@ require dirname(__FILE__).'/domicode/Include'; // We need to find the master inc
 dCheckEntry(__FILE__); // We need to check if this is a webpage.
 
 require dirname(__FILE__).'/domicode/beginWeb'; // We need to begin the webpage.
-include __DIR__.'/domicode/includes/Header';
-include __DIR__.'/domicode/includes/Sidebar';
+require __DIR__.'/domicode/includes/Header';
+require __DIR__.'/domicode/includes/Sidebar';
 
 
 
