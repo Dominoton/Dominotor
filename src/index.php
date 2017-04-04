@@ -6,6 +6,8 @@
 	* configured to correctly use PHP scripts.
 	* If you are not the systems adminisistrator of the server,
 	* contact your systems adminisistrator and describe the error.
+	* Please be nice to them, they are probably having a bad day
+	* if not even PHP is working. (And PHP ALWAYS works. Even on Mondays.)
 	* If you are the systems administrator,
 	* or otherwise can install PHP 7,
 	* install PHP 7. See instructions
